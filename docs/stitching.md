@@ -933,7 +933,7 @@ This lets the remote schema optimize the calls much better since now the remote 
 
 We are currently supporting stitching `Query` and `Mutation`.
 
-With Version 9 we will introduce stitching the `Subscription` type.
+Stitching the `Subscription` type is not supported.
 
 Stitching queries is straight forward and works like described earlier. Mutations are also quite straight forward, but it is often overlooked that mutations are executed with a different execution strategy.
 
